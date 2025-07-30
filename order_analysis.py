@@ -40,7 +40,7 @@ df.drop(columns=['list_price','cost_price','discount_percent'],inplace=True)
 # Connect to Postgres sql database
 from sqlalchemy import create_engine
 # Define your database connection
-engine = create_engine("postgresql://postgres:Abiola1120@localhost:5432/postgres")
+engine = create_engine("postgresql://postgres:{PASSWORD}@localhost:5432/postgres")
 
 
 
